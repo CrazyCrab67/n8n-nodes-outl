@@ -6,7 +6,7 @@ const config: N8NPropertiesBuilderConfig = {}
 const parser = new N8NPropertiesBuilder(doc, config);
 const properties = parser.build()
 
-export class hornet implements INodeType {
+export class outline implements INodeType {
     description: INodeTypeDescription = {
         displayName: 'outline',
         name: 'outline',
