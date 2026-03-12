@@ -1,6 +1,6 @@
 {
   "name": "@crazycrab67/n8n-nodes-outl",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "n8n node to connect with outl",
   "keywords": [
     "n8n-community-node-package"
