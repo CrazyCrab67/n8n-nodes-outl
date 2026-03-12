@@ -31,7 +31,7 @@ export class outline implements INodeType {
                 Accept: 'application/json',
                 'Content-Type': 'application/json',
             },
-            baseURL: '',
+            baseURL: '{{$credentials.url}}',
         },
         properties: properties,
     };
