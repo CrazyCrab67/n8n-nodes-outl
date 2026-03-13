@@ -32,7 +32,6 @@ export class outline implements INodeType {
                 'Content-Type': 'application/json',
             },
             baseURL: 'https://docs.hh.sym.de/api',
-            domain: 'docs.hh.sym.de',
         },
         properties: properties,
     };
