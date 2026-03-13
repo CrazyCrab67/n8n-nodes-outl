@@ -24,6 +24,14 @@ export class outlineApi implements ICredentialType {
                         default: '',
                         required: true,
                 },
+                {
+                        displayName: 'Domain',
+                        name: 'domain',
+                        type: 'string',
+                        placeholder: "your_domain",
+                        default: '',
+                        required: true,
+                }
 
         ];
     authenticate: IAuthenticateGeneric = {
